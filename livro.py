@@ -5,9 +5,9 @@ class Livro:
         self.ano = ano
 
 livro1 = Livro("1984", "george Orwell", "1984")
-print("O livro {} foi escrito por {} em {}".format(livro1.titulo, livro1.autor, livro1.ano))
+print("O livro {} foi escrito por {} no ano {}".format(livro1.titulo, livro1.autor, livro1.ano))
 
 print()
 
 livro_elouise = Livro("o primo brasilio",  "Eça de Queiroz",  "1878")
-print("O livro {} foi escrito por {} em {}".format(livro_elouise.titulo, livro_elouise.autor, livro_elouise.ano))
+print("O livro {} foi escrito por {} no ano {}".format(livro_elouise.titulo, livro_elouise.autor, livro_elouise.ano))
