@@ -8,4 +8,4 @@ livro1 = Livro()
 livro1.titulo = "1984"
 livro1.autor = "george Orwell"
 livro1.ano = "1984"
-print(livro1.titulo, livro1.autor, livro1.ano)
+print("O livro {} foi escrito por {} em {}".format(livro1.titulo, livro1.autor, livro1.ano))
