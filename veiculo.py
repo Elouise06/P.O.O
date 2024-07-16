@@ -4,7 +4,7 @@ class veiculo:
         self.marca = marca
         self.ano = ano
 
-carro1 = veiculo('gol', 'Volkswagen', 2015)
+carro1 = veiculo('Voyage', 'Volkswagen', 2015)
 print("O carro de modelo {}, da marca {}, foi lançado em {} ".format(carro1.modelo, carro1.marca, carro1.ano))
 
 print()
