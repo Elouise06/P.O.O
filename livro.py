@@ -9,5 +9,5 @@ print("O livro {} foi escrito por {} em {}".format(livro1.titulo, livro1.autor, 
 
 print()
 
-livro_elouise = Livro("o mundo de sofia",  "Jostein Gaarder",  "1991")
+livro_elouise = Livro("o primo brasilio",  "Eça de Queiroz",  "1878")
 print("O livro {} foi escrito por {} em {}".format(livro_elouise.titulo, livro_elouise.autor, livro_elouise.ano))
