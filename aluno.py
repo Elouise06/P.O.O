@@ -11,3 +11,8 @@ print()
 
 aluno2 = Aluno("Carlos Felipe", "Eletrônica", "3o ano")
 print("Nome:{} \nCurso:{} \nSerie:{}".format(aluno2.nome, aluno2.curso, aluno2.serie))
+
+print()
+
+aluno3 = Aluno("Bianca cruz", "comércio", "2o ano")
+print("Nome:{} \nCurso:{} \nSerie:{}".format(aluno3.nome, aluno3.curso, aluno3.serie))
