@@ -4,10 +4,17 @@ class Livro:
         self.autor = autor
         self.ano = ano
 
+    def info(self):
+        print("O livro {} foi escrito por {} no ano {}".format(self.titulo, self.autor, self.ano))
+
 livro1 = Livro("1984", "george Orwell", "1984")
-print("O livro {} foi escrito por {} no ano {}".format(livro1.titulo, livro1.autor, livro1.ano))
+livro1.info()
+livro1.ano = 1894
+livro1.info()
 
 print()
 
 livro_elouise = Livro("o primo brasilio",  "Eça de Queiroz",  "1878")
-print("O livro {} foi escrito por {} no ano {}".format(livro_elouise.titulo, livro_elouise.autor, livro_elouise.ano))
+livro_elouise.info()
+livro_elouise.ano = 1787
+livro_elouise.info()
