@@ -13,3 +13,5 @@ class Cofrinho:
 meta_ise= Cofrinho(7000, 20000)
 meta_ise.adicionar(400)
 meta_ise.falta()
+meta_ise.adicionar(350)
+meta_ise.falta()
