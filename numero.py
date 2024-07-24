@@ -1,10 +1,6 @@
 class Numero:
-    def __init__(self, num, ante, dob, tri, met):
+    def __init__(self, num):
         self.num = num
-        self.ante = ante
-        self.dob = dob
-        self.tri = tri
-        self.met = met
   
     def sucessor(self):
         valor = self.num + 1
@@ -27,6 +23,18 @@ class Numero:
         print('A metade de', self.num, ' é ', valormet )
 
 
-sucessor = Numero()
-sucessor.sucessor()
-print('O sucessor de', sucessor.num, ' é {}'.format(sucessor.sucessor)  )
+dois = Numero(2)
+dois.sucessor()
+dois.antecessor()
+dois.dobro()
+dois.triplo()
+dois.metade()
+
+print()
+
+oito = Numero(8)
+oito.sucessor()
+oito.antecessor()
+oito.dobro()
+oito.triplo()
+oito.metade()
