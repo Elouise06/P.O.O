@@ -1,7 +1,7 @@
 from funcionario import Funcionario
 if __name__ == "__main__":
     # Criando objetos com valores iniciais válidos
-    funcionario1 = Funcionario("Joooão", "Analista", 3000.00)
+    funcionario1 = Funcionario("João", "Analista", 3000.00)
     funcionario2 = Funcionario("Maria", "Desenvolvedora", 4500.00)
     funcionario3 = Funcionario("Carlos", "Gerente", 6000.00)
 
