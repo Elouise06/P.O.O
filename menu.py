@@ -22,8 +22,4 @@ while (opcao!= 9):
             cpf = input('CPF do Titular')
             numerocc = input('Número da conta corrente:')
             conta = Conta_corrente(titular, cpf, numerocc)
-            contas_correntes.append(conta)
             print('Conta Corrente criada com sucesso!')
-            
-    elif opcao == 2:
-        
