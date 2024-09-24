@@ -20,4 +20,4 @@ class Data:
             self.__ano = ano
 
     def getData(self):
-        return f"{self.__dia}/{self.__mes}/{self.__ano}"
+        return f"{self.__dia}/ {self.__mes}/ {self.__ano}"

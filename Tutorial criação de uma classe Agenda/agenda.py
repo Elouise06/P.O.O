@@ -31,7 +31,7 @@ class Agenda:
 
     def listar_contatos(self):
         if not self.__contatos:
-            print("Agenda vazia.")
+            print("Agenda vazia!")
         else:
             for contato in self.__contatos:
                 contato.exibirContato()

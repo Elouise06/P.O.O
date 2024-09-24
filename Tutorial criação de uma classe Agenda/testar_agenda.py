@@ -32,7 +32,7 @@ while True:
         print("Contato inserido com sucesso!")
 
     elif opcao == '2':
-        nome = input("Digite o nome do contato que deseja buscar: ")
+        nome = input("Digite o  nome do contato que deseja buscar: ")
         contato = agenda.buscar_contato(nome)
         if contato:
             contato.exibirContato()
