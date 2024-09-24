@@ -1,29 +1,30 @@
 class Autor:
-    def __init__(self, nome, nacionalidade, dataNascimento):
+    def __init__(self, nome: str, nacionalidade: str, data_nascimento: str):
         self.__nome = nome
         self.__nacionalidade = nacionalidade
-        self.__dataNascimento = dataNascimento
+        self.__data_nascimento = data_nascimento
 
-    def setNome(self, nome):
-        self.__nome = nome
-
-    def setNacionalidade(self, nacionalidade):
-        self.__nacionalidade = nacionalidade
-
-    def setDataNascimento(self, dataNascimento):
-        self.__dataNascimento = dataNascimento
-
-    def getNome(self):
+    # Getters
+    def get_nome(self) -> str:
         return self.__nome
 
-    def getNacionalidade(self):
+    def get_nacionalidade(self) -> str:
         return self.__nacionalidade
 
-    def getDataNascimento(self):
-        return self.__dataNascimento
-    
-    def exibirAutor(self):
-        print('Dados do Autor:')
-        print(f'Nome: {self.__nome}')
-        print(f'Nacionalidade: {self.__nacionalidade}')
-        print(f'Data de nascimento: {self.__dataNascimento}')
+    def get_data_nascimento(self) -> str:
+        return self.__data_nascimento
+
+    # Setters
+    def set_nome(self, nome: str):
+        self.__nome = nome
+
+    def set_nacionalidade(self, nacionalidade: str):
+        self.__nacionalidade = nacionalidade
+
+    def set_data_nascimento(self, data_nascimento: str):
+        self.__data_nascimento = data_nascimento
+
+    def exibir_autor(self):
+        print(f"Nome: {self.__nome}")
+        print(f"Nacionalidade: {self.__nacionalidade}")
+        print(f"Data de Nascimento: {self.__data_nascimento}")
